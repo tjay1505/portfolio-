@@ -1,0 +1,37 @@
+.sec-landing-2{
+    height: 100vh;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .landing-sec-1{
+        z-index: 1;
+        position:absolute;
+        height: 80vh;
+        width: 90vw;
+        border: 1px solid wheat;
+        background-color:transparent;
+        @extend %cent;
+    }
+    .landing-sec-2{
+        height: 30vh;
+        border: 1px solid wheat;
+        width: 100vw;
+        overflow: hidden;
+        h1{
+            //background:transparent;
+            color: transparent;
+            -webkit-text-stroke-color: white;
+            -webkit-text-stroke-width: 2px;
+            font-size: 4em;
+            white-space: nowrap;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        .l-h1-2{
+            -webkit-text-stroke-color: orangered;
+            //transform: rotateY('360deg');
+        }
+    }
+}

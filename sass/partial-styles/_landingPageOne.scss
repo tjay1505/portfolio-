@@ -1,0 +1,85 @@
+.sec-landing-1{
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    //overflow-x: hidden;
+    //overflow-y: visible;
+    margin-bottom: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    .textBox{
+        margin-top: 55%;
+        width: 120vmin;
+        height: 120vmin;
+        border-radius: 50%;
+        background-color: orangered;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        //background: url("../../Assets/3964906-removebg-preview.png");
+        justify-content: center;
+    }
+    
+    .orange-circle{
+        width: 20px;
+        height: 20px;
+        background-color:orangered;
+        border-radius: 50%;
+        position: relative;
+        bottom: -5%;
+        right: -30%;
+    }
+    
+}
+
+.text{
+    display: inline-block;
+    font-size: 4rem;
+    line-height: 1.205;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .text__first, .text__second{
+    position: relative;
+  }
+  
+  .text__word,.text__word-2{
+    opacity: 0;
+    color:transparent;
+    //background: -webkit-linear-gradient(260deg,rgb(0, 0, 0),orangered,rgb(0, 0, 0));
+    font-weight: 500;
+    //-webkit-background-clip: text;
+    //-webkit-text-stroke-color: white;
+    //-webkit-text-stroke-width: 1px;
+    color: rgb(255, 255, 255);
+    //-webkit-text-fill-color: transparent;
+  }
+  
+  .text__first-bg, .text__second-bg,.text__first-bg-2,.text__second-bg-2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    transform-origin: left;
+    transform: scaleX(0);
+  }
+  
+  .text__first-bg{
+    background-color: #5fbff9;
+  }
+  
+  .text__second-bg{
+    background-color: #f06543;
+  }
+  .text__first-bg-2{
+    background-color:rgb(49, 162, 49);
+  }
+  .text__second-bg-2{
+    background-color: yellow;
+  }
