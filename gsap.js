@@ -15,7 +15,8 @@ gsap.from(".l-h1-1",{
         trigger:".l-h1-1",
         scrub:1
     },
-    xPercent:-100
+    xPercent:-200,
+    duration:0.2
 })
 
 
@@ -30,8 +31,8 @@ gsap.from(".l-h1-2",{
         trigger:".l-h1-1",
         scrub:1,
     },
-    xPercent:80,
-    duration:1
+    xPercent:200,
+    duration:0.2
 })
 
 gsap.to(".l-h1-3",{
@@ -45,7 +46,8 @@ gsap.from(".l-h1-3",{
         trigger:".l-h1-3",
         scrub:1
     },
-    xPercent:-100
+    xPercent:-200,
+    duration:0.2
 })
 
 gsap.registerEffect({
@@ -67,7 +69,7 @@ let tl23 = gsap.timeline()
          scrub:true,
          start:"70"
      },
-     y:-500,
+     y:-100,
      x:-100,
      scale:38,
      ease:"power3",
